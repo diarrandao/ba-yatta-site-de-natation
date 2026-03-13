@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+
+    height: 100vh;
+    color: white;
+}
+
+section {
+    color: black;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+.logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+}
+
+
+footer {
+    background: linear-gradient(to right, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.footer-section {
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.natation-page {
+    background-image: url("images/photo5.jpeg");
+    Width: 100%;
+    height: auto;
+    background-image: blur(4px);
+}
+
+.competitions-page {
+    background-image: url("images/photo5.jpeg");
+    Width: 100%;
+    height: auto;
+    background-image: blur(6px);
+}
+
+.background-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+
+h2,
+h3,
+h1:hover {
+    letter-spacing: 2px;
+    transition: 0.3s;
+    color: black;
+}
+
+video {
+    width: 500px;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+
+.texte {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 40px;
+}
+
+.texte img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texte p {
+    width: 500px;
+    font-size: 16px;
+    border: 3px solid #00bcd4;
+    padding: 20px;
+    width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.texte h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    color: black;
+}
+
+.nageurs-page {
+    background-image: url("images/photo5.jpeg");
+    Width: 100%;
+    height: auto;
+    background-image: blur(6px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    background-image: url("images/photo1.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.welcome-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.tagline {
+    font-size: 18px;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+
+.btn:hover {
+    background-color: white;
+    color: #000;
+}
+
+.btn {
+    padding: 15px 35px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #00F2FE;
+
+}
+
+
+.btn-contact {
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #00F2FE;
+    color: #00F2FE;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(86, 134, 170, 0.7);
+    text-align: center;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: 0.3s;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.btn-contact:hover {
+    background: #00F2FE;
+    color: #001220;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+}
+
+nav a:hover {
+    color: #0b3c80;
+    border-bottom: 2px solid #3600d8;
+}
+
+nav a:active {
+    color: #0b3c80;
+    border-bottom: 2px solid #3a00d8;
+}
+
+.horizontal-scroll-gallery-section {
+    padding: 0;
+    background-color: #001220;
+}
+
+.image-slider {
+    display: flex;
+    gap: 15px;
+    padding: 0 5%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+
+    scrollbar-width: none;
+}
+
+.image-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-item {
+    flex: 0 0 350px;
+    height: 450px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+
+    
+    transition: transform 0.3s ease;
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.slider-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 242, 254, 0.1);
+}
+
+.slider-item:hover img  {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .slider-item {
+        flex: 0 0 280px;
+        height: 380px;
+    }
+
+
+}.video-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+}
+
+.video-container video{
+    width: 600px;
+    max-width: 45%;
+    border-radius: 15px;
+}
+
+.video-container1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+    }
+.video-container1 video{
+     width: 600px;
+    max-width: 45%;
+    border-radius: 15px;
+    height: 300px;
+}
+.COMP{ font-size: 16px;
+    border: 3px solid #00bcd4;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);}
+.audio-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2000;
+}
+
+#music-btn {
+    background: rgba(0, 18, 32, 0.6);
+    color: #00F2FE;
+    border: 1px solid #00F2FE;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+#music-btn:hover {
+    background: #00F2FE;
+    color: #001220;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.5);
+}
